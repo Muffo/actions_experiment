@@ -1,5 +1,5 @@
 ## Workflow defines what we want to call a set of actions.
-workflow "on pull request merge, delete the branch" {
+workflow "on pull request, check build" {
   ## On pull_request defines that whenever a pull request event is fired this 
   ## workflow will be run.
   on = "pull_request"
