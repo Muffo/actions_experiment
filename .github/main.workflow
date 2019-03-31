@@ -15,5 +15,5 @@ workflow "on pull request, check build" {
 action "verify build" {
   ## Uses defines what we are running, you can point to a repository like below 
   ## OR you can define a docker image.
-  uses = "Muffo/actions_experiment@build"
+  uses = "Muffo/actions_experiment@master"
 }
